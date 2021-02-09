@@ -11,7 +11,7 @@ class Main extends Component {
       <Router>
         <Security
           issuer='https://dev-66431798.okta.com/oauth2/default'
-          client_id='0oa5ianbtoLQRLxFI5d6'
+          client_id=''
           redirect_uri={window.location.origin + '/implicit/callback'}
           scope={['openid', 'profile', 'email']}>
         
